@@ -3,7 +3,7 @@
 
 For the wisdom of you ancestor, call the moo function.
 
-### usage
+### usage import/require
 ```
 import { moo } from "darkest-bovine"
 
@@ -12,6 +12,15 @@ import { moo } from "darkest-bovine"
 moo()      // prints to console
 moo(false) // If you are mad and don't want the moo to be printed to the console.
 ```
+
+### usage cli
+```
+// in a terminal
+npm i -g darkest-bovine
+
+moo
+```
+
 
 ### examples
 #### In a terminal:

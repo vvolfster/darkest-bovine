@@ -1,5 +1,5 @@
 const MOO_QUOTES: string[] = [
-    "Great is the weapon that cuts on its own",
+    "Great is the editor that autocompletes on it's own",
     "The bigger the beast, the greater the glory",
     "A singular strike!",
     "Ringing ears, blurred vision - the end approaches...",
