@@ -1,0 +1,34 @@
+{
+    "name": "darkest-bovine",
+    "version": "1.0.0",
+    "description": "'inspirational' quotes from your darkest bovine ancestor",
+    "main": "dist/index.js",
+    "keywords": [
+        "darkest",
+        "humour",
+        "cow",
+        "bovine",
+        "quote",
+        "log"
+    ],
+    "files": [
+        "dist",
+        "LICENSE"
+    ],
+    "author": "vvolfster zabaat",
+    "license": "MIT",
+    "scripts": {
+        "build": "npx tsc",
+        "dev": "npx tsc -w",
+        "lint": "eslint --fix \"src/**/*.{js,ts,jsx,tsx}\""
+    },
+    "devDependencies": {
+        "typescript": "^4.0.2",
+        "eslint": "^6.6.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-prettier": "^3.1.3",
+        "prettier": "^2.0.5",
+        "@types/node": "^12.12.3"
+    }
+}
