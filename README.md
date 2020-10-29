@@ -1,17 +1,20 @@
 # darkest-bovine
 'Inspirational' quotes from your darkest bovine ancestor.
 
-Prints a random 
+For the wisdom of you ancestor, call the moo function.
 
 ### usage
 ```
 import { moo } from "darkest-bovine"
+
+// moo returns a string
 
 moo()      // prints to console
 moo(false) // If you are mad and don't want the moo to be printed to the console.
 ```
 
 ### examples
+In a terminal:
 ```
  ________________________________________
 < Great is the weapon that cuts on its own >
@@ -24,4 +27,5 @@ moo(false) // If you are mad and don't want the moo to be printed to the console
 
 ```
 
-![enter image description here](https://github.com/vvolfster/darkest-bovine/blob/main/moo-example.png)
+In the browser:
+![enter image description here](https://i.imgur.com/JmyAzue.png)
