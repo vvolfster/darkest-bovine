@@ -24,4 +24,4 @@ moo(false) // If you are mad and don't want the moo to be printed to the console
 
 ```
 
-![enter image description here](./moo-example.png)
+![enter image description here](https://github.com/vvolfster/darkest-bovine/blob/main/moo-example.png)

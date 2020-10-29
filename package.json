@@ -1,6 +1,6 @@
 {
     "name": "darkest-bovine",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "'inspirational' quotes from your darkest bovine ancestor",
     "main": "dist/index.js",
     "keywords": [
