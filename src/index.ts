@@ -22,7 +22,7 @@ const MOO_QUOTES: string[] = [
     "A strict regimen is paramount, if one is to master the brutal arithmetic of rxJS.",
     "The front line of this war is not in the heap, but rather, inside the mind.",
     "A mighty sword-arm anchored by a holy purpose. A zealous warrior.",
-    "Barbaric rage and unrelenting savagery make for a powerful ally.",
+    "Barbaric rage and unrelenting savagery make for a powerful linter.",
     "This dev understands that adversity and existence are one and the same.",
     "The raw strength of youth may be spent, but his eyes hold the secrets of a hundred failed deploys.",
     "The ticket ahead is terrible, and weakness cannot be tolerated."
