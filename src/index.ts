@@ -47,7 +47,7 @@ const MOO_QUOTES: string[] = [
     "Word is travelling. Ambition is stirring in distant cities. Weekly downloads are increasing. We can use this.",
     "Strong drink, a game of chance(), and companionship. The rush of life.",
     "A strict regimen is paramount, if one is to master the brutal arithmetic of code review.",
-    "Alone in the woods or tunnels, survival is the same. Prepare, persist, and push to main",
+    "Alone in the woods or tunnels, survival is the same. Prepare, persist, and commit directly to main",
     "Tortured and reclusive... this lib is more dangerous than it seems...",
     "Barbaric rage and unrelenting savagery make for a powerful PR 'request changes'.",
     "A dev and his faithful terminal. A bond forged by battle and bloodshed.",
