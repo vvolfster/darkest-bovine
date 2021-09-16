@@ -2,7 +2,7 @@ const MOO_QUOTES: string[] = [
     "Great is the editor that autocompletes on it's own",
     "The bigger the beast, the greater the glory",
     "A singular strike!",
-    "Ringing ears, blurred vision - the end approaches...",
+    "Ringing ears, blurred vision, no datadog - the end approaches...",
     "A brilliant confluence of skill and purpose!",
     "This is no place for the weak, or the foolhardy.",
     "As victories mount, so too will resistance.",
@@ -44,7 +44,7 @@ const MOO_QUOTES: string[] = [
     "jQuery, once so well regarded, is now barely whispered aloud by decent folk.",
     "The poor Safari devs, I fear their long-standing duties here have ...affected them.",
     "Can you feel it? The walls between the sane world and that unplumbed dimension of delirium are tenuously thin here...",
-    "Word is travelling. Ambition is stirring in distant cities. Weekly downloads are increasing. We can use this.",
+    "Word is travelling. Ambition is stirring in distant cities. Weekly npm downloads are increasing. We can use this.",
     "Strong drink, a game of chance(), and companionship. The rush of life.",
     "A strict regimen is paramount, if one is to master the brutal arithmetic of code review.",
     "Alone in the woods or tunnels, survival is the same. Prepare, persist, and commit directly to the main branch",
@@ -53,7 +53,24 @@ const MOO_QUOTES: string[] = [
     "A dev and his faithful terminal. A bond forged by battle and bloodshed.",
     "He will be laughing still... at the end.",
     "This man understands that adversity and existence are one and the same.",
-    "I knew all these functions once; now they are as twisted as my own ambitions."
+    "I knew all these functions once; now they are as twisted as my own ambitions.",
+    "Watch your step",
+    "Another developer... another misfortune",
+    "Without chrome debugger, you must rely on tools of flesh, and indefatigible purpose",
+    "You cannot learn a thing you think you know",
+    "The wounds of AWS can be healed, but never hidden",
+    "Compassion is a rarity in the fevered pitch of code review",
+    "The blood pumps! The fingers obey!",
+    "Patched up, if only to crash again",
+    "As the fiend falls, a faint hope blossoms",
+    "Press this advantage! Give them no quarter",
+    "BEGONE FIEND!",
+    "Another bug falls",
+    "Monsterous package size has no intrinsic merit, unless inordinate bandwidth exsanguination be considered a virtue",
+    // Jeeves
+    `“What are the chances of a cobra biting Harold, Jeeves?", "Slight, I should imagine, sir. And in such an event, knowing the boy as intimately as I do, my anxiety would be entirely for the snake.”`,
+    "I've found, as a general rule of life, that the things you think are going to be the scaliest nearly always turn out not so bad after all.",
+    "Good Lord, Moo! Is there anything you don’t know?’ ‘I couldn’t say, sir."
 ]
 
 function getRandomEntry<T>(arr: T[]) {
