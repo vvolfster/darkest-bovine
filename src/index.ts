@@ -67,6 +67,9 @@ const MOO_QUOTES: string[] = [
     "BEGONE FIEND!",
     "Another bug falls",
     "Monsterous package size has no intrinsic merit, unless inordinate bandwidth exsanguination be considered a virtue",
+    "An ambush! Send these bug vermin a message. The rightful dev has returned, and their kind is no. longer. welcome.",
+    "Make no mistake, we will face ever greated threats, our devs must be ever ready",
+    "trinkets and charms, un-deallocated pointers gathered from all the forgotten corners of the codebase",
     // Jeeves
     `“What are the chances of a cobra biting Harold, Jeeves?", "Slight, I should imagine, sir. And in such an event, knowing the boy as intimately as I do, my anxiety would be entirely for the snake.”`,
     "I've found, as a general rule of life, that the things you think are going to be the scaliest nearly always turn out not so bad after all.",
