@@ -78,11 +78,15 @@ const MOO_QUOTES: string[] = [
     "Good Lord, Moo! Is there anything you don’t know?’ ‘I couldn’t say, sir."
 ]
 
-function getRandomEntry<T>(arr: T[], seed?: string) {
+function getRandomEntry<T>(arr: T[], seed?: string | (() => number)) {
     let r: number
     if (seed) {
-        const rng = seedrandom(seed)
-        r = rng()
+        if (typeof seed === "string") {
+            const rng = seedrandom(seed)
+            r = rng()
+        } else {
+            r = seed()
+        }
     } else {
         r = Math.random()
     }
@@ -90,7 +94,7 @@ function getRandomEntry<T>(arr: T[], seed?: string) {
     return arr[Math.floor(r * arr.length)]
 }
 
-export function mooWithSeed(dontLogToConsole?: boolean, text?: string, seed?: string) {
+export function moo(dontLogToConsole?: boolean, text?: string, seed?: string | (() => number)) {
     if (!text) {
         text = getRandomEntry(MOO_QUOTES, seed)
     }
@@ -114,6 +118,7 @@ export function mooWithSeed(dontLogToConsole?: boolean, text?: string, seed?: st
     return text
 }
 
-export function moo(dontLogToConsole?: boolean, text?: string) {
-    return mooWithSeed(dontLogToConsole, text)
+export function seededMoo(seed: string) {
+    const rng = seedrandom(seed)
+    return (dontLogToConsole?: boolean, text?: string) => moo(dontLogToConsole, text, rng)
 }
