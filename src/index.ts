@@ -1,3 +1,5 @@
+import seedrandom from "seedrandom"
+
 const MOO_QUOTES: string[] = [
     "Great is the editor that autocompletes on it's own",
     "The bigger the beast, the greater the glory",
@@ -73,13 +75,21 @@ const MOO_QUOTES: string[] = [
     "Good Lord, Moo! Is there anything you don’t know?’ ‘I couldn’t say, sir."
 ]
 
-function getRandomEntry<T>(arr: T[]) {
-    return arr[Math.floor(Math.random() * arr.length)]
+function getRandomEntry<T>(arr: T[], seed?: string) {
+    let r: number
+    if (seed) {
+        const rng = seedrandom(seed)
+        r = rng()
+    } else {
+        r = Math.random()
+    }
+
+    return arr[Math.floor(r * arr.length)]
 }
 
-export function moo(dontLogToConsole?: boolean, text?: string) {
+export function mooWithSeed(dontLogToConsole?: boolean, text?: string, seed?: string) {
     if (!text) {
-        text = getRandomEntry(MOO_QUOTES)
+        text = getRandomEntry(MOO_QUOTES, seed)
     }
 
     if (dontLogToConsole) {
@@ -99,4 +109,8 @@ export function moo(dontLogToConsole?: boolean, text?: string) {
     )
 
     return text
+}
+
+export function moo(dontLogToConsole?: boolean, text?: string) {
+    return mooWithSeed(dontLogToConsole, text)
 }
