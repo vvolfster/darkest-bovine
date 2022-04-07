@@ -2,9 +2,9 @@ import seedrandom from "seedrandom"
 
 const MOO_QUOTES: string[] = [
     "Great is the editor that autocompletes on it's own",
-    "The bigger the beast, the greater the glory",
-    "A singular strike!",
-    "Ringing ears, blurred vision, no datadog - the end approaches...",
+    "The bigger the bug, the greater the glory",
+    "A singular commit!",
+    "Ringing ears, blurred vision, no logging telemetry - the end approaches...",
     "A brilliant confluence of skill and purpose!",
     "This is no place for the weak, or the foolhardy.",
     "As victories mount, so too will resistance.",
@@ -42,7 +42,7 @@ const MOO_QUOTES: string[] = [
     "I remember days when the sun shone, and laughter could be heard from the zoom call.",
     "I was lord of this place, before the crows and dead snakes made it their domain.",
     "In truth I cannot tell how much time has passed since I updated the deps.",
-    "Once, our estate was the envy of this land...",
+    "Once, our estate was the .envy of this land...",
     "jQuery, once so well regarded, is now barely whispered aloud by decent folk.",
     "The poor Safari devs, I fear their long-standing duties here have ...affected them.",
     "Can you feel it? The walls between the sane world and that unplumbed dimension of delirium are tenuously thin here...",
