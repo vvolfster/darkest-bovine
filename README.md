@@ -1,7 +1,7 @@
 # darkest-bovine
 'Inspirational' quotes from your darkest bovine ancestor.
 
-For the wisdom of you ancestor, call the moo function.
+For the wisdom of your ancestor, call the moo function.
 
 ### usage import/require
 ```
