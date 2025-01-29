@@ -39,5 +39,11 @@
     },
     "bin": {
         "moo": "./dist/moocli.js"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vvolfster/darkest-bovine.git"
+    },
+    "homepage": "https://github.com/vvolfster/darkest-bovine#readme",
+    "bugs": "https://github.com/vvolfster/darkest-bovine/issues"
 }
