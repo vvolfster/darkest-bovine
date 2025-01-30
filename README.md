@@ -1,9 +1,11 @@
 # darkest-bovine
+
 'Inspirational' quotes from your darkest bovine ancestor.
 
 For the wisdom of your ancestor, call the moo function.
 
 ### usage import/require
+
 ```
 import { moo } from "darkest-bovine"
 
@@ -14,6 +16,7 @@ moo(false) // If you are mad and don't want the moo to be printed to the console
 ```
 
 ### usage cli
+
 ```
 // in a terminal
 npm i -g darkest-bovine
@@ -21,9 +24,10 @@ npm i -g darkest-bovine
 moo
 ```
 
-
 ### examples
+
 #### In a terminal:
+
 ```
  ________________________________________
 < Great is the weapon that cuts on its own >
@@ -37,4 +41,5 @@ moo
 ```
 
 #### In the browser:
-![enter image description here](https://i.imgur.com/JmyAzue.png)
+
+![enter image description here](./moo-example.png)
